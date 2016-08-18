@@ -42,10 +42,10 @@ missing_columns
 # k = sqrt(nrow(data))
 # train_knn = kNN(data, k = k)
 
-# #--------------------------------------------
-# # Create validation set
-# #--------------------------------------------
-# # randomly sample 80% of 'data' as training and 20% as validation
+#--------------------------------------------
+# Create validation set
+#--------------------------------------------
+# randomly sample 80% of 'data' as training and 20% as validation
 # set.seed(10)
 # train_index = sample(1:nrow(data), 8*nrow(data)/10)
 # train = data[train_index, ]
